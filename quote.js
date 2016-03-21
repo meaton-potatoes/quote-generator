@@ -50,6 +50,6 @@ function quotes() {
       quoteOut += quote[i];
     }
   }
-  quote += "<br><br><a href='http://twitter.com/home/?status=" + quoteOut + " - #Rumi" + " http://melissaeaton.me/quote-generator/' target='_blank'><i class='fa fa-twitter fa-2x'></i></a>"
+  quote += "<br><br><a href='http://twitter.com/home/?status=" + quoteOut + " - %23Rumi" + " http://melissaeaton.me/quote-generator/' target='_blank'><i class='fa fa-twitter fa-2x'></i></a>"
   return quote;
 }
